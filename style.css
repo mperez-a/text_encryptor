@@ -4,6 +4,7 @@
 	font-weight: 400;
 	font-size: 32px;
 	line-height: 150%;
+	overflow-y: hidden;
 }
 
 .logo {
@@ -14,14 +15,13 @@
 
 main {
 	display: flex;
-	margin-bottom: 50px;
-	margin-left: 80px;
+	margin-bottom: 10px;
+	margin-left: 180px;
 }
 
 .text-area {
 	border: none;
 	color: #0A3871;
-	margin-top: 90px;
 	text-transform: lowercase;
 }
 
@@ -32,11 +32,11 @@ main {
 	background: white;
 	background-image: url('/img/doll.png');
 	background-repeat: no-repeat;
+	background-position: center;
 	border: none;
 	border-radius: 24px;
 	color: #0A3871;
 	margin-left: 98px;
-	margin-top: 20px;
 	padding-left: 20px;
 	position: fixed;
 }
@@ -76,7 +76,7 @@ main {
 	cursor: pointer;
 	height: 67px;
 	margin-left: 108px;
-	margin-top: 402px;
+	margin-top: 470px;
 	position: absolute;
 	width: 336px;
 }
